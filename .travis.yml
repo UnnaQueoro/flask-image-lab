@@ -1,0 +1,12 @@
+language: python
+
+python:
+  - "3.10"
+
+install:
+  - pip install flask
+  - pip install matplotlib
+  - pip install requests
+
+script:
+  - python flaskapp/some_app.py
